@@ -7,7 +7,7 @@ A PHP class to interact with the PostaGuvercini.com SMS API. This class allows y
 - Easy integration with the PostaGuvercini.com SMS API.
 - Supports sending SMS messages with customizable text and recipient numbers.
 - Handles API responses and provides error messages based on error codes.
-- Utilizes modern PHP 8.2 features like type hinting and constructor property promotion.
+- Utilizes modern PHP 8.0 features like type hinting and constructor property promotion.
 - Exception handling for better error management.
 
 ## Usage
@@ -49,12 +49,12 @@ A PHP class to interact with the PostaGuvercini.com SMS API. This class allows y
 
 ## Installation
 
-1. Ensure you have PHP 8.2 or higher installed.
+1. Ensure you have PHP 8.0 or higher installed.
 2. Download the `GoyercinSMS` class and include it in your project.
 
 ## Requirements
 
-- PHP 8.2 or higher.
+- PHP 8.0 or higher.
 - cURL extension enabled.
 
 ## License
