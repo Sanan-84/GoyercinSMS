@@ -13,7 +13,17 @@ A PHP class to interact with the PostaGuvercini.com SMS API. This class allows y
 ## Usage
 
 1. **Initialize the class:**
+    First, you need to include the GoyercinSMS.php file in your project. You can do this by copying the content of the GoyercinSMS.php file into your project or by using Composer.
     ```php
+    composer require webservis/goyercinsms
+    ```
+    #Basic Usage
+    
+    ```php
+    require_once 'vendor/autoload.php'; // Adjust this based on your project's structure
+
+    use Webservis\GoyercinSMS;
+
     $user = "YOUR_USERNAME";
     $password = "YOUR_PASSWORD";
     $goyercinSMS = new GoyercinSMS($user, $password);
