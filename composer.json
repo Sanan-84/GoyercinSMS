@@ -1,0 +1,20 @@
+{
+    "name": "webservis/goyercin-sms",
+    "description": "Simple PHP Example",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Sanan Mammadov",
+            "email": "sanan@webservis.az",
+            "homepage": "http://www.webservis.az"
+        }
+    ],
+    "require": {
+        "php": ">=8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Webservis\\": "src/"
+        }
+    }
+}
